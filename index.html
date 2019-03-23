@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Quem Paga a Conta?</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <!-- primeira tela -->
+      <div class="applicant_container">
+        <h1>Quem paga a conta?</h1>
+        <div class="applicant_input">
+          <input type="text" id="applicant_value" placeholder="Candidato" />
+          <span id="add_applicant">Adicionar</span>
+        </div>
+        <div class="applicant_list">
+          <h5>Participantes</h5>
+          <div class="applicant_list_wrapper">
+
+          </div>
+        </div>
+        <div class="button_container">
+          <div id="show_results">O perdedor é...</div>
+        </div>
+      </div>
+
+      <!-- segunda tela -->
+      <div class="results_container hidden">
+        <h1>O perdedor é</h1>
+        <div class="result"></div>
+
+        <div class="results_action">
+          <div class="run_again">Executar de novo</div>
+          <div class="start-over">Começar de novo</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
